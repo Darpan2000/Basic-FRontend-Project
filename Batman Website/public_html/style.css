@@ -1,0 +1,159 @@
+body{
+    font-family: Arial;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    
+}
+h4{
+    font: italic small-caps bolder 30px arial black,arial;
+}
+
+.box{
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.list_box{
+    width: 100%;
+    overflow: hidden;
+}
+#image{
+    float:left;
+    padding: 0px 10px 20px 5px;
+    height: 100px;
+}
+#background-image{
+    background-image: url("img/bat_cover.jpg");
+   height:350px;
+   padding-top: 50px;
+    margin-top: 25px;
+    color:#fff;
+}
+#content{
+    max-width:450px; 
+        margin-top:30px;
+        padding:20px 20px;
+        background-color: rgba(0,0,0,0.7);
+        
+}
+.thumbnail {
+    display: inline-block;
+
+    height: auto;
+
+    padding: 4px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+
+    border: 1px solid #a4a4a4;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 30px;
+
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width:100%;
+}
+th,td{
+    border:1px solid;
+    height:30px;
+    padding: 15px;
+}
+th{
+    text-align: left;
+    background-color: #ececec;
+}
+nav{
+    padding:0px;
+    margin: 0px;
+}
+ul{
+    list-style-type:none;
+}
+li a{
+    text-decoration: none;
+    display:block;
+    padding: 1px 16px;
+    float:right;
+    color:black;
+}
+.logo{
+    float: left;
+    height: 45px;
+}
+#header{
+   padding: 5px0px;
+    display:inline-block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+input{
+    padding:14px 70px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+#subscribe {
+
+    border: none;
+
+    background-color: #26211f;
+
+    color: white;
+
+    font-size: 16px;
+
+    margin:4px-4px;
+    padding: 16px 40px;
+
+}
+
+@media(min-width:320px)
+{
+    .container{
+        width:320px;
+    }
+}
+@media(min-width:481px)
+{
+    .container{
+        width:481px;
+    }
+}
+@media(min-width:641px)
+{
+    .container{
+        width:641px;
+    }
+}
+@media(min-width:961px)
+{
+    .container{
+        width:961px;
+    }
+}
+@media(min-width:1000px)
+{
+    .container{
+        width:1000px;
+    }
+}
+@media(max-width:481px)
+{
+    .box{
+        width:100%
+    }
+    #image{
+        width:100%
+    }
+    h2{
+        text-align: center;
+    }
+}
